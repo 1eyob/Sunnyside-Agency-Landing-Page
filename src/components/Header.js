@@ -48,6 +48,7 @@ const About = styled.button`
 border :none;
 color:white;
 cursor:pointer;
+margin-right:5px;
 background-color: transparent;
 &: hover {
   background-color:#e9f5f5;
@@ -62,6 +63,7 @@ const Services = styled.button`
 border :none;
 color:white;
 cursor:pointer;
+margin-right:5px;
 background-color: transparent;
 &: hover {
   background-color:#e9f5f5;
@@ -75,6 +77,7 @@ const Projects = styled.button`
 border :none;
 color:white;
 cursor:pointer;
+margin-right:5px;
 background-color: transparent;
 &: hover {
   background-color:#e9f5f5;
@@ -88,23 +91,27 @@ const Contact = styled.button`
 border :none;
 color:white;
 cursor:pointer;
+
 background-color: transparent;
 &: hover {
   background-color:#e9f5f5;
   transform:scale(1.1);
   border-radius:10px;
   color:black;
+  border:2px;
 }
 
 `
 
 const Name =styled.h2`
 color:white;
+padding:10px;
 `;
 const Title = styled.h1`
 
 position:absolute;
-
+font-family:barlow;
+font-weight:600;
 color:white;
 top: 20%;
   left: 50%;

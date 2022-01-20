@@ -20,12 +20,19 @@ const Text1 = styled.div`
   align-items: center;
   padding-top: 100px;
 `;
-const TextTitle = styled.h1``;
+const TextTitle = styled.h1`
+font-family:barlow;
+font-weight:600;
+`;
 const Paragraph = styled.p`
   width: 70%;
   align-items: center;
+  justify-content:center;
+  margin-bottom:2px;
 `;
-const Learn = styled.h2``;
+const Learn = styled.h2`
+color:hsl(212, 27%, 19%)`;
+
 const Image1 = styled.img.attrs({
   src: `${ImageTransform}`,
 })`
@@ -72,10 +79,18 @@ const Info = styled.div`
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 350%;
+  top: 345%;
   width: 50%;
 `;
-const Title = styled.h2``;
+const Title1 = styled.h2`
+color:hsl(167, 40%, 24%)`;
+
+const Title2 = styled.h2`
+color:hsl(198, 62%, 26%)
+font-family:barlow;
+font-weight:600;`
+
+
 const Text = styled.p`
   width: 75%;
 `;
@@ -84,7 +99,7 @@ const Info1 = styled.div`
   align-items: center;
   flex-direction: column;
   position: absolute;
-  top: 350%;
+  top: 345%;
   left: 60%;
 `;
 
@@ -113,7 +128,7 @@ const Gallery = () => {
       </Text2>
       <Image3 />
       <Info>
-        <Title>graphic Design</Title>
+        <Title1>Graphic Design</Title1>
         <Text>
           great design makes you memorable. We deliver artwork that underscore
           your brand message and captures potential clients' attention
@@ -121,7 +136,7 @@ const Gallery = () => {
       </Info>
       <Image4 />
       <Info1>
-        <Title>Photography</Title>
+        <Title2>Photography</Title2>
         <Text>
           Increase your credibility bt getting the most stunning, high quality
           photos that improve your business images{" "}

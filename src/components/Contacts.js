@@ -11,6 +11,14 @@ import thomas from "../images/image-jennie.jpg";
   
 `;
 const Title = styled.h1`
+tex-align:center;
+display:flex;
+align-items:center;
+justify-content:center;
+color:hsl(210, 4%, 67%);
+margin-top:50px;
+font-weight:500;
+font-size:19px;
 
 `;
 const Left = styled.div`
@@ -72,11 +80,14 @@ display : flex;
 justify-content:space-between;
 align-items:center;
 padding: 50px ;
-margin-top:100px;
+margin-top:50px;
+height: 200px;
+
 `
 const Contacts = () => {
   return (
     <Container>
+        <h1>kshgfd</h1>
       <Title>CLIENT TESTIMONIALS</Title>
       <Wrapper>
       <Left>
